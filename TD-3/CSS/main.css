@@ -1,0 +1,25 @@
+body {
+    color: black;
+    background-color: rgb(141, 141, 141);
+    background-attachment: fixed;
+}
+
+#bloc-b2 {
+    display: flex;
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    margin-top: auto;
+    margin: auto;
+}
+
+.img1 {
+    position: absolute;
+    left: 420px;
+    top: 200px;
+    width: 1100px;
+    height: 650px;
+}
