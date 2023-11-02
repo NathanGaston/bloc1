@@ -1,0 +1,100 @@
+/* Style de la barre de navigation */
+.navbar {
+    position: fixed; /* Fixe la barre en haut de la page */
+    top: 0; /* Place la barre tout en haut de la fenêtre */
+    left: 0; /* Place la barre tout à gauche de la fenêtre */
+    right: 0; /* Place la barre tout à droite de la fenêtre */
+    background-image: url("../img/header-bg.jpg");
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: none;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+
+/* Style du logo */
+.logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: transform 0.8s;
+    margin-left: 200px;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.logo2 {
+    margin-right: 15px;
+}
+
+/* Styles pour les boutons de navigation */
+.nav-button {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-family: "Agbalumo", sans-serif;
+    margin-left: 500px;
+    list-style-type: none;
+    flex-direction: row;
+    margin-right: 5px;
+}
+
+.nav-button li {
+    padding: 10px;
+}
+
+.nav-buttons li a:hover {
+    transition: 0.3s;
+    color: crimson;
+    border-bottom: solid 1px crimson;
+}
+
+.nav-button li a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 3px;
+}
+
+/* _________________________________________ MAIN ___________________________________ */
+
+.b1 {
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.b1 h1 {
+    margin-left: 25px; 
+}
+
+#trait {
+    border-bottom: rgb(0, 153, 255) 2px solid;
+    width: 150px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.b1 li {
+    padding: 5px;
+}
+
+.b2 {
+    position: relative;
+    bottom: 295px;
+    left: 550px
+}
+
+.b2 h1 {
+    margin-left: 25px;
+}
+
+.b2 img {
+    margin-left: 25px;
+}
