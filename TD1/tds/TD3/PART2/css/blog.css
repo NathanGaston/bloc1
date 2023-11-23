@@ -1,0 +1,224 @@
+/* Style de la barre de navigation */
+.navbar {
+    position: fixed; /* Fixe la barre en haut de la page */
+    top: 0; /* Place la barre tout en haut de la fenêtre */
+    left: 0; /* Place la barre tout à gauche de la fenêtre */
+    right: 0; /* Place la barre tout à droite de la fenêtre */
+    background-image: url("../img/header-bg.jpg");
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: none;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    z-index: 1000;
+
+}
+
+/* Style du logo */
+.logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: transform 0.8s;
+    margin-left: 200px;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.logo2 {
+    margin-right: 15px;
+}
+
+/* Styles pour les boutons de navigation */
+.nav-button {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-family: "Agbalumo", sans-serif;
+    margin-left: 500px;
+    list-style-type: none;
+    flex-direction: row;
+    margin-right: 5px;
+}
+
+.nav-button li {
+    padding: 10px;
+}
+
+.nav-buttons li a:hover {
+    transition: 0.3s;
+    color: crimson;
+    border-bottom: solid 1px crimson;
+}
+
+.nav-button li a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 3px;
+}
+
+/* _________________________________________ MAIN ___________________________________ */
+
+.b1 {
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.b1 h1 {
+    margin-left: 25px; 
+}
+
+#trait {
+    border-bottom: rgb(0, 153, 255) 2px solid;
+    width: 150px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.b1 li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.b1 li a {
+    color: black;
+    text-decoration: none;
+}
+
+.b1 li a:hover {
+    color: blueviolet;
+    border-bottom: blueviolet 2px solid;
+}
+
+
+
+
+/*________________________________ BLOG __________________________________*/
+
+.b2 {
+    position: relative;
+    bottom: 295px;
+    left: 520px
+}
+
+.b2 h1 {
+    margin-left: 25px;
+}
+
+.b2 img {
+    margin-left: 25px;
+}
+
+.b2 h3 {
+    color: rgb(0, 174, 255);
+    margin-left: 25px;
+}
+
+.b2 #p1 {
+    margin-left: 25px;
+}
+
+.tag {
+    color: white;
+    display: flex;
+    font-size: 10px;
+    flex-direction: row;
+    margin-left: 25px;
+}
+
+#tag1 {
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(9, 138, 212);
+    border: black 1px solid;
+    border-radius: 10px;
+}
+
+#tag2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(9, 138, 212);
+    border: black 1px solid;
+    border-radius: 10px;
+}
+
+#read_more {
+    margin-left: 25px;
+    margin-top: 5px;
+    background-color: aliceblue;
+    border: rgb(0, 140, 255) 1px solid;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: 0.3s;
+}
+
+#read_more:hover {
+    color: white;
+    background-color: rgb(0, 140, 255);
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.img8 {
+    margin-top: 10px;
+}
+
+.img5 {
+    margin-top: 10px;
+}
+
+/* ________________________________TAGS_______________________________________________*/
+
+.b3 {
+    position: relative;
+    bottom: 2060px;
+    left: 1150px
+}
+
+.b3 h1 {
+    margin-left: 25px;
+}
+
+#Tags {
+    margin-left: 25px;
+    color: white;
+    display: flex;
+    font-size: 10px;
+    flex-direction: row;
+    margin-left: 25px;
+}
+
+.tag_public {
+    margin-left: 25px;
+    color: white;
+    display: flex;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+/*____________________________________________ RECENT POST ___________________________________________*/
+
+#recent_post {
+    margin-left: 25px;
+}
+
+#recent_post p {
+    color: rgb(73, 73, 73);
+    font-size: 15px;
+}
+
+#post_by {
+    color: rgb(73, 73, 73);
+    font-size: 15px;
+}
